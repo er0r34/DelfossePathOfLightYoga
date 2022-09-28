@@ -21,15 +21,7 @@ header {
 	font-size: 90%;
 	min-height: 200px;
 }
-header :link {
-	color: #FFFFFF;
-}
-header :visited {
-	color: #FFFFFF;
-}
-header :hover {
-	color: #EDF5F5;
-}
+
 .home {
 	height: 20vh;
 	padding-top: 2em;
@@ -66,15 +58,7 @@ nav li {
 	padding-left: 2em;
 	width: 30%;
 }
-nav :link {
-	color: #3F2860;
-}
-nav :visited {
-	color: #497777;
-}
-nav :hover {
-	color: #A26100;
-}
+
 #mathero {
 	background-image: url("yogamat.jpg");
 	height: 300px;
@@ -92,13 +76,35 @@ nav :hover {
 h2 {
 	margin: 0;
 }
+
 nav a {
 	text-decoration: none;
+}
+nav a:link {
+	color: #3F2860;
+}
+nav a:visited {
+	color: #497777;
+}
+nav a:hover {
+	color: #A26100;
 }
 
 header a {
 	text-decoration: none;
 }
+header :link {
+	color: #FFFFFF;
+}
+header :visited {
+	color: #FFFFFF;
+}
+header :hover {
+	color: #8F92B2;
+	transition: ease-out 10s;
+
+}
+
 footer {
 	font-size: small;
 	font-style: italic;
